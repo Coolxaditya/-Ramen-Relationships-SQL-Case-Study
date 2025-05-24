@@ -1,6 +1,6 @@
 # Danny's Diner - SQL Case Study
 
-![Danny's Diner](https://github.com/DataWithDanny/sql-masterclass/blob/main/assets/dannys_diner.png?raw=true)
+This project and the data used were part of a case study, which can be found [here](https://8weeksqlchallenge.com/case-study-1/). It focuses on examining patterns, trends, and factors influencing customer spending to gain insights into their preferences, purchasing habits, and potential areas for improvement in menu offerings or marketing strategies in a dining establishment.
 
 ## Introduction
 
