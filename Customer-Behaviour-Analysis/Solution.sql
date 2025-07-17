@@ -19,7 +19,6 @@ GROUP BY
   customer_id;
 
 -- 3. What was the first item from the menu purchased by each customer?
--- 3. What was the first item from the menu purchased by each customer?
 SELECT
   s.customer_id,
   MIN(s.order_date) AS first_order_date,
@@ -130,7 +129,7 @@ WHERE
 ORDER BY
   s.customer_id;
 
--- 8. What is the total items and amount spent for each member before they became a member?
+-- 8. What are the total items and amount spent for each member before they became a member?
 SELECT
   s.customer_id,
   COUNT(*) AS total_items,
@@ -162,8 +161,8 @@ JOIN
 GROUP BY
   s.customer_id;
   
-/* 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - 
-how many points do customer A and B have at the end of January? */
+/* 10. In the first week after a customer joins the program (including their join date), they earn 2x points on all items, not just sushi - 
+How many points do customers A and B have at the end of January? */
 SELECT
   s.customer_id,
   SUM(
